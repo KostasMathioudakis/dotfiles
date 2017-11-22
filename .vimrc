@@ -1,5 +1,8 @@
+"color/syntax
 syntax on
 color koehler
+
+"no arrow_keys
 no <down> <Nop>
 no <left> <Nop>
 no <right> <Nop>
@@ -8,14 +11,20 @@ ino <down> <Nop>
 ino <left> <Nop>
 ino <right> <Nop>
 ino <up> <Nop>
+
+"always include these
 set exrc
 set secure
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set noexpandtab
+
+"column_highlighting
 set colorcolumn=110
 highlight ColorColumn ctermbg=darkgray
+
+"other_stuff
 set nohlsearch
 set encoding=utf8
 nohl
